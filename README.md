@@ -1,6 +1,8 @@
 # Simple Terminal Animation
 
-Simple terminal animation (for celebrating your friend's birthday). For documents & explanations in Chinese, see my blog post [here](https://stevehawk.tk/posts/).
+Simple terminal animation (for celebrating your friend's birthday) using only a bash script.
+
+For documents & explanations in Chinese, see my blog post [here](https://stevehawk.tk/posts/).
 
 ## What’s the idea?
 
@@ -8,29 +10,23 @@ The idea of this project is to create terminal animations, using only simple CLI
 
 So it’s most suitable to surprise friends who loves nerdy terminal style animations.
 
-One way to use this, is putting the `A_MYSTERY_STORY.sh` file somewhere in your friend’s computer, and wait for him/her to find out. You will have to make sure the script does run on his/her computer.
+One way to do the surprise, is to place the `A_MYSTERY_STORY.sh` file somewhere in your friend’s computer, and wait for him/her to find out. You will have to make sure the script does run on his/her computer.
 
-Another way is to record this animation to some other forms. My solution is turning it into a SVG format animation so that it can be easily embedded in web pages, but you can definitely try video or some other kinds of format. Note that SVG animation is really demanding on both CPU and memory resources, so choose wisely.
+Another way is to record this animation. My solution is turning it into an SVG format animation so that it can be easily embedded in web pages, but you can definitely try video or some other kinds of format. Note that SVG animation is really demanding on both CPU and memory resources, so choose wisely.
 
 ## “A MYSTERY STORY” the story
 
-The story is actually nowhere near “MYSTERY”, just a plain treasure hunting story based on conversations. The script of this play is basically the code (self-documenting code lol) and you could read it yourself.
-
-For TD;LR, the story is about a cow trying to find treasures, and finally find a monolith with happy birthday carved on it. A ton of bad jokes involved.
+The story is actually nowhere near “MYSTERY”, just a plain treasure hunting story based on conversations. The script of this play is basically the code (self-documenting code lol) and you could read it yourself. For TD;LR, the story is about a cow trying to find treasures, and finally find a monolith with happy birthday carved on it. A ton of bad jokes involved.
 
 You can use/modify my story freely if you want (it’s under GPL v3), and you can always write your own. I’ll do some explanations below about the codes.
 
 ## Requirements
 
-cowsay
-
-lolcat
-
-toilet
-
-boxes
-
-termtosvg (Optional for recording svg)
+- cowsay
+- lolcat
+- toilet
+- boxes
+- termtosvg (Optional for recording svg)
 
 ## File structure
 
@@ -44,7 +40,7 @@ The file includes three part:
 
 I chose [termtosvg](https://github.com/nbedos/termtosvg) as my recording tool. Go check out their repo, it’s great.
 
-The command I used to record, is
+The command I used to record is
 
 ```bash
 termtosvg ./A_MYSTERY_STORY.svg -c './A_MYSTERY_STORY.sh' -D 5000 -g 85x35 -m 200 -t window_frame_js
