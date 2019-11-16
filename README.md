@@ -46,11 +46,11 @@ The command I used to record is
 termtosvg ./A_MYSTERY_STORY.svg -c './A_MYSTERY_STORY.sh' -D 5000 -g 85x35 -m 200 -t window_frame_js
 ```
 
-You might want to change some parameters based on your content. Read their documentation for more information.
+You might want to change some parameters based on your requirements. Read their documentation for more information.
 
-Note: Set `-m` to a larger number (1 by default) can massively reduce size, thus increase SVG rendering performance.
+Note: set `-m` to a larger number (1 by default) can massively reduce size, thus increase SVG rendering performance.
 
-## How to embed in Hugo
+## How to embed SVG in Hugo
 
 In my case, I use [Hugo](https://gohugo.io/) as my blog framework, so I only figured out how to embed it in Hugo.
 
