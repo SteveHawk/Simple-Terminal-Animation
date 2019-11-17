@@ -2,11 +2,13 @@
 
 Simple terminal animation (for celebrating your friend's birthday) using only a bash script.
 
-For documents & explanations in Chinese, see my blog post [here](https://stevehawk.tk/posts/).
+For documents & explanations in Chinese, see my blog post [here](https://stevehawk.tk/posts/26-simple-terminal-animation).
+
+For demo, see [here](https://stevehawk.tk/demo/a-mystery-story).
 
 ## What’s the idea?
 
-The idea of this project is to create terminal animations, using only simple CLI tools including `cowsay`, `lolcat`, `toilet` and `boxes`. Since these tools are quite easy and intuitive to use, we can just focus on the plot instead of appearance. 
+The idea of this project is to create terminal animations, using only simple CLI tools including `cowsay`, `lolcat`, `toilet` and `boxes`. Since these tools are quite easy and intuitive to use, we can just focus on the plot instead of appearance.
 
 So it’s most suitable to surprise friends who loves nerdy terminal style animations.
 
@@ -18,7 +20,9 @@ Another way is to record this animation. My solution is turning it into an SVG f
 
 The story is actually nowhere near “MYSTERY”, just a plain treasure hunting story based on conversations. The script of this play is basically the code (self-documenting code lol) and you could read it yourself. For TL;DR, the story is about a cow trying to find treasures, and finally find a monolith with happy birthday carved on it. A ton of bad jokes involved.
 
-You can use/modify my story freely if you want (it’s under GPL v3), and you can always write your own. I’ll do some explanations below about the codes.
+If you want to use my story directly, you would probably want to change the name on that monolith. It’s around line 351 in `A_MYSTERY_STORY.sh`.
+
+Also, you can modify my story freely if you want (it’s under GPL v3), and you can always write your own. I’ll do some explanations below about the codes.
 
 ## Requirements
 
