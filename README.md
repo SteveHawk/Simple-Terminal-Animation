@@ -16,7 +16,7 @@ Another way is to record this animation. My solution is turning it into an SVG f
 
 ## “A MYSTERY STORY” the story
 
-The story is actually nowhere near “MYSTERY”, just a plain treasure hunting story based on conversations. The script of this play is basically the code (self-documenting code lol) and you could read it yourself. For TD;LR, the story is about a cow trying to find treasures, and finally find a monolith with happy birthday carved on it. A ton of bad jokes involved.
+The story is actually nowhere near “MYSTERY”, just a plain treasure hunting story based on conversations. The script of this play is basically the code (self-documenting code lol) and you could read it yourself. For TL;DR, the story is about a cow trying to find treasures, and finally find a monolith with happy birthday carved on it. A ton of bad jokes involved.
 
 You can use/modify my story freely if you want (it’s under GPL v3), and you can always write your own. I’ll do some explanations below about the codes.
 
