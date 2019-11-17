@@ -77,3 +77,5 @@ Then you can simply embed your SVG file in markdown using:
 ```
 
 The string within the quotes is the path to your SVG file. Here I put it in `$HUGO_SITE/svg/A_MYSTERY_STORY.svg`, you can choose other places you prefer. Remember that the SVG file doesn’t necessarily have to be copied to `$HUGO_SITE/public` when building, because it is directly injected into the page html.
+
+One last thing, the generated SVG file has a fixed width. You can change the `width="***"` attribute to a percentage in the first line of the file.
