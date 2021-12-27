@@ -2,9 +2,9 @@
 
 Simple terminal animation (for celebrating your friend's birthday) using only a bash script.
 
-For documents & explanations in Chinese, see my blog post [here](https://stevehawk.tk/posts/26-simple-terminal-animation).
+For documents & explanations in Chinese, see my blog post [here](https://sttev.com/posts/26-simple-terminal-animation).
 
-For demo, see [here](https://stevehawk.tk/demo/a-mystery-story).
+For demo, see [here](https://sttev.com/demo/a-mystery-story).
 
 ## What’s the idea?
 
